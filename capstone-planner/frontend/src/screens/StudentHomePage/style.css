@@ -1,0 +1,71 @@
+.student-home-page {
+  background-color: #ff7921;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+
+.student-home-page .div-6 {
+  background-color: #861F41;
+  height: 1080px;
+  overflow: hidden;
+  position: relative;
+  width: 1920px;
+}
+
+.student-home-page .group-container {
+  position: absolute;
+  top: 100px; /* Adjust as needed */
+  left: 50%;
+  transform: translateX(-50%);
+  width: 90vw !important; /* Fill most of the screen width */
+  height: 80vh; /* Make it take up most of the screen height */
+  max-width: 2000px;
+  max-height: 1000px;
+  background-color: lightgray;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  overflow: hidden; /* Prevents scrolling inside */
+  display: flex; /* Enables flexbox for child positioning */
+  flex-direction: row; /* Align children (task list & calendar) horizontally */
+  gap: 10px; /* Adds spacing between task list and calendar */
+}
+
+/* Task list takes up 30% on the left */
+.student-home-page .task-list-container {
+  width: 30%;
+  height: 100%;
+  background-color: white;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  overflow-y: auto; /* Enable scrolling inside the task list */
+}
+
+/* Calendar takes up 70% on the right */
+.student-home-page .calendar-container {
+  width: 70%;
+  height: 100%;
+  background-color: white;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  overflow: hidden;
+}
+
+.content-container {
+  display: flex;
+  justify-content: space-between; /* Ensures proper spacing */
+  align-items: flex-start; /* Aligns items to the top */
+  width: 100%;
+  padding: 20px;
+}
+
+
+

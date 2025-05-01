@@ -1,0 +1,133 @@
+    html, body {
+    overflow: hidden; /* Prevent scrolling */
+    height: 100%; /* Ensure full height */
+  }
+
+    .div-8 {
+        background-color: rgb(24, 24, 24);
+        height: 1080px;
+        overflow: hidden;
+        position: relative;
+        width: 1920px;
+    }
+  
+   .group-container {
+    position: absolute;
+    top: 100px; /* Adjust as needed */
+    left: 50%;
+    transform: translateX(-50%);
+    width: 90vw !important; /* Fill most of the screen width */
+    height: 80vh; /* Make it take up most of the screen height */
+    max-width: 2000px;
+    max-height: 1000px;
+    background-color: lightgray;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    overflow: hidden; /* Prevents scrolling inside */
+    display: flex; /* Enables flexbox for child positioning */
+    flex-direction: row; /* Align children (task list & calendar) horizontally */
+    gap: 10px; /* Adds spacing between task list and calendar */
+  }
+  
+  /* Task list takes up 30% on the left */
+   .link-container {
+    width: 30%;
+    height: 100%;
+    background-color: white;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    overflow-y: auto; /* Enable scrolling inside the task list */
+  }
+  
+  /* Calendar takes up 70% on the right */
+   .settings-container {
+    width: 70%;
+    height: 100%;
+    background-color: white;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    overflow: hidden;
+  }
+  
+  .content-container {
+    display: flex;
+    justify-content: space-between; /* Ensures proper spacing */
+    align-items: flex-start; /* Aligns items to the top */
+    width: 100%;
+    padding: 20px;
+  }
+  
+   .img {
+    width: auto;
+    height: 4vw;
+    margin: 10px;
+    margin-bottom: 40px;
+  }
+  
+   .setting-link {
+    font-family: "Alumni Sans", Helvetica;
+    color: black;
+    font-style: italic;
+    text-decoration: none;
+    font-size: 30px;
+    margin: 10px;
+    margin-top: 50px;
+  }
+  
+   .setting-link-active {
+    font-family: "Alumni Sans", Helvetica;
+    color: #ff7921;
+    font-style: italic;
+    text-decoration: underline;
+    font-size: 30px;
+    margin: 10px;
+    margin-top: 50px;
+  
+  }
+  
+.setting-header {
+    color: black;
+    font-family: "Alumni Sans", Helvetica;
+    font-size: 30px;
+    margin: 20px;
+  }
+  
+.current-setting {
+    font-family: "Alumni Sans", Helvetica;
+    color: gray;
+    font-size: 30px;
+    margin: 20px;
+  }
+
+.header {
+    color: black;
+    font-family: "Alumni Sans", Helvetica;
+    font-size: 30px;
+    margin: 20px;
+    font-weight: bold;
+}
+
+.change-setting {
+    background-color: lightgray;
+    text-decoration: none;
+    border-radius: 5px;
+    border-color: black;
+    font-family: "Alumni Sans", Helvetica;
+    font-size: 30px;
+    margin: 20px;
+    margin-top: 40px;
+    width: 20%;
+  }
+  
+.text-wrapper-1 {
+    color: black;
+    margin: 10px;
+    text-decoration: none;
+
+}

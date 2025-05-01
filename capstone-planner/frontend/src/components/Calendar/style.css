@@ -1,0 +1,314 @@
+@media (max-width: 1024px) {
+  .calendar-container {
+    width: 95vw;
+    height: 80vh;
+  }
+
+  .fc .fc-toolbar-title {
+    font-size: 2vw;
+  }
+
+  .fc .fc-button {
+    font-size: 1vw;
+    padding: 8px 12px;
+  }
+
+  .fc .fc-col-header-cell-cushion,
+  .fc .fc-timegrid-slot-label-cushion,
+  .fc .fc-daygrid-day-number,
+  .fc .fc-event-title {
+    font-size: 1.5vw;
+  }
+}
+
+.html,
+.body {
+  overflow: hidden; /* Prevent scrolling */
+  height: 100%; /* Ensure full height */
+}
+
+.fc .fc-toolbar-title {
+  font-size: 2.5vw;
+}
+
+.student-calendar {
+  background-color: #e8e8e8;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.student-calendar .div-5 {
+  background-color: #e8e8e8;
+  height: 1080px;
+  overflow: hidden;
+  position: relative;
+  width: 1920px;
+}
+
+.student-calendar .overlap-7 {
+  height: 71px;
+  left: -2px;
+  position: absolute;
+  top: 0;
+  width: 1922px;
+}
+
+.student-calendar .pngfind-com-virginia {
+  height: 38px;
+  left: 351px;
+  object-fit: cover;
+  position: absolute;
+  top: 18px;
+  width: 80px;
+}
+
+/* Move the calendar down and make it larger */
+.student-calendar .calendar-container {
+  position: absolute;
+  top: 100px; /* Adjust as needed */
+  left: 50%;
+  transform: translateX(-50%);
+  width: 90vw !important; /* Fill most of the screen width */
+  height: 80vh; /* Make it take up most of the screen height */
+  max-width: 2000px;
+  max-height: 1000px;
+  background-color: white;
+  border: 4px solid rgb(73, 73, 73);
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  overflow: hidden; /* Prevents scrolling inside */
+  display: flex; /* Allows child elements to fit properly */
+  flex-direction: column;
+}
+
+/* Make time slots taller */
+.fc .fc-timegrid-slot {
+  height: 60px; /* Keeps spacing but prevents overflow */
+}
+
+/* Make the time labels (e.g., "7 AM", "8 AM") bigger */
+.fc .fc-timegrid-slot-label-cushion {
+  font-size: 20px; /* Increase the font size */
+  font-family: "Alumni Sans", Helvetica;
+  font-style: italic;
+  font-weight: 600;
+  color: #000000;
+}
+
+/* Ensure the calendar itself fills the container */
+.fc {
+  flex-grow: 1; /* Ensures it takes up remaining space */
+  width: 100%;
+  min-height: 100%; /* Ensures the calendar fully fills the container */
+}
+
+.fc-view {
+  height: 100%;
+}
+
+.fc .fc-daygrid-body {
+  min-height: 100%;
+}
+
+/* Adjust the header to align with the new calendar size */
+.student-calendar .overlap-7 {
+  height: 100px; /* Increase header height if needed */
+  padding: 20px; /* Add padding to the header */
+}
+
+.fc .fc-button {
+  font-size: 1.2vw; /* Responsive button size */
+  background-color: #ff7a06;
+  border: none;
+  color: white;
+  padding: 10px 15px;
+}
+
+/* Apply the site's font to all calendar elements */
+.fc .fc-col-header-cell-cushion,
+.fc .fc-daygrid-day-number,
+.fc .fc-daygrid-event,
+.fc .fc-timegrid-slot-label-cushion,
+.fc .fc-event-title {
+  font-size: 2vw; /* Scales dynamically */
+  font-family: "Alumni Sans", Helvetica;
+  font-style: italic;
+  font-weight: 600;
+  color: #000000;
+}
+
+.fc .fc-button:hover {
+  background-color: #d66400;
+}
+
+/* Day Numbers in the Calendar */
+.fc .fc-daygrid-day-number {
+  font-size: 20px; /* Smaller than the title but readable */
+  color: #000000; /* Match the color of your header text */
+}
+
+/* Event Titles in the Calendar */
+.fc .fc-daygrid-event,
+.fc .fc-event-title {
+  font-size: 18px; /* Slightly smaller than day numbers */
+  background-color: #ffc107;
+  border: none;
+  color: black;
+  padding: 2px 5px;
+  margin: 3px;
+  border-radius: 3px;
+}
+
+/* Time Slot Labels in Week/Day View */
+.fc .fc-timegrid-slot-label-cushion {
+  font-size: 16px; /* Smaller for time slots */
+  color: #000000; /* Match the color of your header text */
+}
+
+/* Highlight the active view button */
+.fc .fc-button.fc-button-active {
+  background-color: #861F41 !important; /* Darker shade for active button */
+  color: white;
+  font-weight: bold;
+}
+
+/* Modal Styles (for both Add Event and Add Schedule) */
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.EventAdder,
+.AddScheduleModal {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  width: 400px; /* Adjust width as needed for Add Schedule */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  font-family: "Alumni Sans", Helvetica;
+  font-style: italic;
+  font-weight: 600;
+  color: #000000;
+}
+
+.EventAdder h2,
+.AddScheduleModal h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.EventAdder .form-group,
+.AddScheduleModal .form-group,
+.AddScheduleModal .course-form {
+  margin-bottom: 15px;
+}
+
+.EventAdder .form-group label,
+.AddScheduleModal .form-group label,
+.AddScheduleModal .course-form label {
+  display: block;
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.EventAdder .form-group input,
+.AddScheduleModal .form-group input,
+.AddScheduleModal .course-form input[type="text"],
+.AddScheduleModal .course-form input[type="number"],
+.AddScheduleModal .course-form input[type="time"] {
+  width: 100%;
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.AddScheduleModal .course-form h3 {
+  font-size: 20px;
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+
+.AddScheduleModal .form-group.days-checkboxes label {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.AddScheduleModal .form-group.days-checkboxes input[type="checkbox"] {
+  margin-right: 5px;
+}
+
+.EventAdder .modal-actions,
+.AddScheduleModal .modal-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.EventAdder .modal-actions button,
+.AddScheduleModal .modal-actions button,
+.AddScheduleModal .course-form button {
+  padding: 8px 16px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.EventAdder .modal-actions button[type="button"],
+.AddScheduleModal .modal-actions button[type="button"],
+.AddScheduleModal .course-form button[type="button"] {
+  background-color: #ccc;
+  color: #000;
+}
+
+.EventAdder .modal-actions button[type="submit"],
+.AddScheduleModal .modal-actions button[type="submit"] {
+  background-color: #ff7a06;
+  color: white;
+}
+
+.EventAdder .modal-actions button[type="submit"]:hover,
+.AddScheduleModal .modal-actions button[type="submit"]:hover {
+  background-color: #d66400;
+}
+
+.AddScheduleModal .course-form button {
+  background-color: #f44336;
+  color: white;
+  margin-top: 10px;
+}
+
+.AddScheduleModal .course-form button:hover {
+  background-color: #d32f2f;
+}
+
+.AddScheduleModal button[type="button"] {
+  background-color: #ccc;
+  color: #000;
+}
+
+.AddScheduleModal button[type="button"]:hover {
+  background-color: #b3b3b3;
+}
+
+.AddScheduleModal button[type="submit"] {
+  background-color: #4caf50;
+  color: white;
+}
+
+.AddScheduleModal button[type="submit"]:hover {
+  background-color: #45a049;
+}

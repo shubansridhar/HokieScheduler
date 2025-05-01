@@ -1,0 +1,28 @@
+/* Make the navbar background orange */
+.custom-navbar {
+    background-color: #ff7921 !important; /* Custom Orange */
+}
+
+/* Ensure "Student Scheduler" is always white */
+.custom-navbar .navbar-brand {
+    color: white !important;
+    font-weight: bold; /* Optional */
+    font-family: "Helvetica", "sans-serif";
+}
+
+/* Default navbar links are black */
+.custom-navbar .navbar-nav .nav-link {
+    color: black !important;
+    font-family: "Helvetica", "sans-serif";
+    font-weight: bold; /* Optional for better styling */
+    margin: 5px;
+}
+
+/* Active/currently selected page link */
+.custom-navbar .navbar-nav .nav-link.active {
+    color: white !important;
+    font-family: "Helvetica", "sans-serif";
+    text-decoration: underline !important;
+    font-weight: bold; /* Optional for emphasis */
+    margin: 5px;
+}

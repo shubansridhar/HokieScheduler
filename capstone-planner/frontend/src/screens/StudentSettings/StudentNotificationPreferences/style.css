@@ -1,0 +1,8 @@
+.student-settings-screen {
+  background-color: #eaeaea;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+

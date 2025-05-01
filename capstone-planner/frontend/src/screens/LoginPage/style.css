@@ -1,0 +1,94 @@
+.login-page {
+  background-color: rgba(255, 255, 255, 1.0);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+  
+html, body {
+  overflow: hidden !important; /* Prevent scrolling */
+  height: 100% !important; /* Ensure full height */
+}
+
+ .div-4 {
+  background: linear-gradient(
+    180deg,
+    rgb(255, 255, 255) 0%,
+    rgb(134, 31, 65) 100%
+  );
+  background-color: rgba(255, 255, 255, 1.0);
+  height: 1080px;
+  overflow: hidden;
+  position: relative;
+  width: 1920px;
+}
+
+ .login-container {
+  background-color: #ffffff;
+  border-radius: 20px;
+  box-shadow: 0px 4px 4px #00000040;
+  height: auto; /* Adjust height dynamically based on content */
+  width: 593px;
+  position: absolute;
+  left: 50%;
+  top: 162px;
+  transform: translateX(-50%); /* Center horizontally */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 20px; /* Add padding inside the container */
+}
+
+ .virginia-tech-logo {
+  height: 62px;
+  width: auto;
+  margin-bottom: 40px; /* Adds space below the image */
+}
+ .title {
+  font-size: 60px;
+  font-weight: bold;
+  font-family: "Alumni Sans", Helvetica;
+  margin-bottom: 100px; /* Adds space below the title */
+}
+
+ .login-button {
+  width: 100%; /* Make buttons take full width */
+  max-width: 498px; /* Keep max width */
+  height: 70px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 15px 0; /* Adds spacing between buttons */
+  position: relative; /* Removes absolute positioning */
+}
+
+ .student-login {
+  background-color: #ff7921;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  color: white;
+  font-size: 45px;
+  font-weight: 600;
+  font-style: italic;
+  border-radius: 20px;
+  font-family: "Alumni Sans", Helvetica;
+}
+
+
+.login-type {
+  color: #898989;
+  font-size: 40px;
+  font-weight: bold;
+  font-family: "Alumni Sans", Helvetica;
+  margin-bottom: 60px; /* Adds space below the title */
+}
+
+
+
+

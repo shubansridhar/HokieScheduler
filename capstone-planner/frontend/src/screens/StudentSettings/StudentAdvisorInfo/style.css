@@ -1,0 +1,7 @@
+.student-advisor-info {
+  background-color: #eaeaea;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}

@@ -1,0 +1,1031 @@
+.student-schedule {
+  background-color: #efefef;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.student-schedule .overlap-wrapper-2 {
+  background-color: #efefef;
+  height: 1080px;
+  overflow: hidden;
+  width: 1920px;
+}
+
+.student-schedule .overlap-30 {
+  height: 1080px;
+  left: -3px;
+  position: relative;
+  width: 1948px;
+}
+
+.student-schedule .frame-5 {
+  background-color: #ff7921;
+  height: 63px;
+  left: 3px;
+  position: absolute;
+  top: 0;
+  width: 1920px;
+}
+
+.student-schedule .text-wrapper-133 {
+  color: #f9f9f9;
+  font-family: "Alumni Sans", Helvetica;
+  font-size: 45px;
+  font-style: italic;
+  font-weight: 600;
+  left: 0;
+  letter-spacing: 0;
+  line-height: 42.7px;
+  position: absolute;
+  text-align: center;
+  top: 8px;
+  width: 312px;
+}
+
+.student-schedule .virginia-tech-logo-7 {
+  height: 62px;
+  left: 57px;
+  object-fit: cover;
+  position: absolute;
+  top: 80px;
+  width: 335px;
+}
+
+.student-schedule .rectangle-52 {
+  background-color: #ffffff;
+  border-radius: 20px;
+  box-shadow: 0px 4px 4px #00000040;
+  height: 756px;
+  left: 57px;
+  position: absolute;
+  top: 283px;
+  width: 593px;
+}
+
+.student-schedule .text-wrapper-134 {
+  color: #000000;
+  font-family: "Alumni Sans", Helvetica;
+  font-size: 36px;
+  font-weight: 600;
+  left: 146px;
+  letter-spacing: 0;
+  line-height: 54px;
+  position: absolute;
+  top: 906px;
+  white-space: nowrap;
+  width: 364px;
+}
+
+.student-schedule .text-wrapper-135 {
+  color: #000000;
+  font-family: "Alumni Sans", Helvetica;
+  font-size: 36px;
+  font-weight: 600;
+  left: 146px;
+  letter-spacing: 0;
+  line-height: 54px;
+  position: absolute;
+  top: 780px;
+  white-space: nowrap;
+  width: 364px;
+}
+
+.student-schedule .text-wrapper-136 {
+  color: #000000;
+  font-family: "Alumni Sans", Helvetica;
+  font-size: 36px;
+  font-weight: 600;
+  left: 146px;
+  letter-spacing: 0;
+  line-height: 54px;
+  position: absolute;
+  top: 654px;
+  white-space: nowrap;
+  width: 306px;
+}
+
+.student-schedule .text-wrapper-137 {
+  color: #000000;
+  font-family: "Alumni Sans", Helvetica;
+  font-size: 36px;
+  font-weight: 600;
+  left: 146px;
+  letter-spacing: 0;
+  line-height: 54px;
+  position: absolute;
+  top: 528px;
+  white-space: nowrap;
+  width: 306px;
+}
+
+.student-schedule .ellipse-10 {
+  background-color: #ea2626;
+  border-radius: 20px;
+  height: 40px;
+  left: 83px;
+  position: absolute;
+  top: 914px;
+  width: 40px;
+}
+
+.student-schedule .ellipse-11 {
+  background-color: #ea2626;
+  border-radius: 20px;
+  height: 40px;
+  left: 83px;
+  position: absolute;
+  top: 781px;
+  width: 40px;
+}
+
+.student-schedule .ellipse-12 {
+  background-color: #e1b608;
+  border-radius: 20px;
+  height: 40px;
+  left: 83px;
+  position: absolute;
+  top: 531px;
+  width: 40px;
+}
+
+.student-schedule .ellipse-13 {
+  background-color: #ea2626;
+  border-radius: 20px;
+  height: 40px;
+  left: 83px;
+  position: absolute;
+  top: 655px;
+  width: 40px;
+}
+
+.student-schedule .text-wrapper-138 {
+  color: #000000;
+  font-family: "Alumni Sans", Helvetica;
+  font-size: 64px;
+  font-style: italic;
+  font-weight: 600;
+  left: 83px;
+  letter-spacing: 0;
+  line-height: 96px;
+  position: absolute;
+  top: 282px;
+  white-space: nowrap;
+  width: 395px;
+}
+
+.student-schedule .ellipse-14 {
+  background-color: #dcdcdc;
+  border-radius: 20px;
+  height: 40px;
+  left: 83px;
+  position: absolute;
+  top: 415px;
+  width: 40px;
+}
+
+.student-schedule .ellipse-15 {
+  background-color: #d9d9d9;
+  border-radius: 0.5px / 6.5px;
+  height: 13px;
+  left: 119px;
+  position: absolute;
+  top: 575px;
+  width: 1px;
+}
+
+.student-schedule .text-wrapper-139 {
+  color: #a9a6a6;
+  font-family: "Alumni Sans", Helvetica;
+  font-size: 36px;
+  font-weight: 600;
+  left: 146px;
+  letter-spacing: 0;
+  line-height: 54px;
+  position: absolute;
+  top: 416px;
+  white-space: nowrap;
+  width: 306px;
+}
+
+.student-schedule .text-wrapper-140 {
+  color: #b0b0b0;
+  font-family: "Alumni Sans", Helvetica;
+  font-size: 25px;
+  font-weight: 600;
+  left: 146px;
+  letter-spacing: 0;
+  line-height: 37.5px;
+  position: absolute;
+  top: 453px;
+  white-space: nowrap;
+  width: 306px;
+}
+
+.student-schedule .text-wrapper-141 {
+  color: #000000;
+  font-family: "Alumni Sans", Helvetica;
+  font-size: 25px;
+  font-weight: 600;
+  left: 146px;
+  letter-spacing: 0;
+  line-height: 37.5px;
+  position: absolute;
+  top: 566px;
+  white-space: nowrap;
+  width: 306px;
+}
+
+.student-schedule .text-wrapper-142 {
+  color: #000000;
+  font-family: "Alumni Sans", Helvetica;
+  font-size: 25px;
+  font-weight: 600;
+  left: 146px;
+  letter-spacing: 0;
+  line-height: 37.5px;
+  position: absolute;
+  top: 693px;
+  white-space: nowrap;
+  width: 306px;
+}
+
+.student-schedule .text-wrapper-143 {
+  color: #000000;
+  font-family: "Alumni Sans", Helvetica;
+  font-size: 25px;
+  font-weight: 600;
+  left: 146px;
+  letter-spacing: 0;
+  line-height: 37.5px;
+  position: absolute;
+  top: 947px;
+  white-space: nowrap;
+  width: 306px;
+}
+
+.student-schedule .line-47 {
+  height: 1px;
+  left: 136px;
+  object-fit: cover;
+  position: absolute;
+  top: 443px;
+  width: 298px;
+}
+
+.student-schedule .checkboxes-7 {
+  left: 536px !important;
+  position: absolute !important;
+  top: 431px !important;
+}
+
+.student-schedule .checkboxes-8 {
+  left: 536px !important;
+  position: absolute !important;
+  top: 544px !important;
+}
+
+.student-schedule .checkboxes-9 {
+  left: 536px !important;
+  position: absolute !important;
+  top: 669px !important;
+}
+
+.student-schedule .checkboxes-10 {
+  left: 536px !important;
+  position: absolute !important;
+  top: 796px !important;
+}
+
+.student-schedule .text-wrapper-144 {
+  color: #000000;
+  font-family: "Alumni Sans", Helvetica;
+  font-size: 25px;
+  font-weight: 600;
+  left: 146px;
+  letter-spacing: 0;
+  line-height: 37.5px;
+  position: absolute;
+  top: 820px;
+  white-space: nowrap;
+  width: 306px;
+}
+
+.student-schedule .checkboxes-11 {
+  left: 536px !important;
+  position: absolute !important;
+  top: 921px !important;
+}
+
+.student-schedule .text-wrapper-145 {
+  color: #000000;
+  display: block;
+  font-family: "Alumni Sans", Helvetica;
+  font-size: 40px;
+  font-style: italic;
+  font-weight: 600;
+  left: 1640px;
+  letter-spacing: 0;
+  line-height: 60px;
+  position: absolute;
+  text-shadow: 0px 4px 4px #00000040;
+  top: 62px;
+  width: 160px;
+}
+
+.student-schedule .text-wrapper-146 {
+  color: #000000;
+  display: block;
+  font-family: "Alumni Sans", Helvetica;
+  font-size: 40px;
+  font-style: italic;
+  font-weight: 600;
+  left: 1468px;
+  letter-spacing: 0;
+  line-height: 60px;
+  position: absolute;
+  text-shadow: 0px 4px 4px #00000040;
+  top: 62px;
+  width: 160px;
+}
+
+.student-schedule .text-wrapper-147 {
+  color: #0000005e;
+  font-family: "Alumni Sans", Helvetica;
+  font-size: 40px;
+  font-style: italic;
+  font-weight: 600;
+  left: 1214px;
+  letter-spacing: 0;
+  line-height: 60px;
+  position: absolute;
+  text-decoration: underline;
+  text-shadow: 0px 4px 4px #00000040;
+  top: 62px;
+  width: 160px;
+}
+
+.student-schedule .text-wrapper-148 {
+  color: #000000;
+  font-family: "Alumni Sans", Helvetica;
+  font-size: 40px;
+  font-style: italic;
+  font-weight: 600;
+  left: 1323px;
+  letter-spacing: 0;
+  line-height: 60px;
+  position: absolute;
+  text-shadow: 0px 4px 4px #00000040;
+  top: 62px;
+  width: 160px;
+}
+
+.student-schedule .text-wrapper-149 {
+  color: #000000;
+  display: block;
+  font-family: "Alumni Sans", Helvetica;
+  font-size: 40px;
+  font-style: italic;
+  font-weight: 600;
+  left: 1788px;
+  letter-spacing: 0;
+  line-height: 60px;
+  position: absolute;
+  text-shadow: 0px 4px 4px #00000040;
+  top: 62px;
+  width: 160px;
+}
+
+.student-schedule .editor-instance {
+  left: 57px !important;
+  position: absolute !important;
+  top: 172px !important;
+  width: 1847px !important;
+}
+
+.student-schedule .editor-2 {
+  left: 1531px !important;
+  width: 283px !important;
+}
+
+.student-schedule .editor-3 {
+  width: 283px !important;
+}
+
+.student-schedule .editor-4 {
+  left: 45px !important;
+  width: 229px !important;
+}
+
+.student-schedule .editor-5 {
+  height: 40px !important;
+  left: 8px !important;
+  position: absolute !important;
+  top: 4px !important;
+  width: 45px !important;
+}
+
+.student-schedule .editor-6 {
+  left: 337px !important;
+  width: 256px !important;
+}
+
+.student-schedule .editor-7 {
+  width: 256px !important;
+}
+
+.student-schedule .editor-8 {
+  height: 40px !important;
+  left: 4px !important;
+  position: absolute !important;
+  top: 4px !important;
+  width: 45px !important;
+}
+
+.student-schedule .editor-9 {
+  left: 27px !important;
+  width: 229px !important;
+}
+
+.student-schedule .editor-10 {
+  left: 25px !important;
+  width: 256px !important;
+}
+
+.student-schedule .rectangle-53 {
+  background-color: #ffffff;
+  border: 0.2px solid;
+  border-color: #000000;
+  border-radius: 20px;
+  box-shadow: 0px 4px 4px #00000040;
+  height: 756px;
+  left: 676px;
+  position: absolute;
+  top: 283px;
+  width: 1210px;
+}
+
+.student-schedule .text-wrapper-150 {
+  color: #000000;
+  font-family: "Alumni Sans", Helvetica;
+  font-size: 64px;
+  font-style: italic;
+  font-weight: 600;
+  left: 699px;
+  letter-spacing: 0;
+  line-height: 96px;
+  position: absolute;
+  top: 282px;
+  white-space: nowrap;
+  width: 312px;
+}
+
+.student-schedule .arrow-back-5 {
+  height: 24px !important;
+  left: 1328px !important;
+  position: absolute !important;
+  top: 318px !important;
+  width: 24px !important;
+}
+
+.student-schedule .arrow-back-4-instance {
+  height: 24px !important;
+  left: 1514px !important;
+  position: absolute !important;
+  top: 318px !important;
+  width: 24px !important;
+}
+
+.student-schedule .text-wrapper-151 {
+  color: #000000;
+  font-family: "Alumni Sans", Helvetica;
+  font-size: 30px;
+  font-style: italic;
+  font-weight: 600;
+  left: 1350px;
+  letter-spacing: 0;
+  line-height: 45px;
+  position: absolute;
+  text-align: center;
+  top: 305px;
+  white-space: nowrap;
+  width: 165px;
+}
+
+.student-schedule .september-month-13 {
+  left: 1620px !important;
+  position: absolute !important;
+  top: 298px !important;
+}
+
+.student-schedule .september-month-14 {
+  font-size: 30px !important;
+  line-height: 45px !important;
+}
+
+.student-schedule .rectangle-54 {
+  background-color: #d9d9d9;
+  border-radius: 10px;
+  height: 50px;
+  left: 1081px;
+  position: absolute;
+  top: 304px;
+  width: 204px;
+}
+
+.student-schedule .rectangle-55 {
+  height: 45px;
+  left: 1084px;
+  position: absolute;
+  top: 307px;
+  width: 99px;
+}
+
+.student-schedule .rectangle-56 {
+  height: 45px;
+  left: 1183px;
+  position: absolute;
+  top: 307px;
+  width: 99px;
+}
+
+.student-schedule .text-wrapper-152 {
+  color: #9c9c9c;
+  font-family: "Alumni Sans", Helvetica;
+  font-size: 30px;
+  font-style: italic;
+  font-weight: 600;
+  left: 1073px;
+  letter-spacing: 0;
+  line-height: 45px;
+  position: absolute;
+  text-align: center;
+  top: 303px;
+  white-space: nowrap;
+  width: 116px;
+}
+
+.student-schedule .text-wrapper-153 {
+  color: #000000;
+  font-family: "Alumni Sans", Helvetica;
+  font-size: 30px;
+  font-style: italic;
+  font-weight: 600;
+  left: 1184px;
+  letter-spacing: 0;
+  line-height: 45px;
+  position: absolute;
+  text-align: center;
+  top: 306px;
+  white-space: nowrap;
+  width: 99px;
+}
+
+.student-schedule .events-4 {
+  height: 662px;
+  left: 732px;
+  position: absolute;
+  top: 363px;
+  width: 1099px;
+}
+
+.student-schedule .overlap-31 {
+  height: 657px;
+  left: 122px;
+  position: absolute;
+  top: 5px;
+  width: 977px;
+}
+
+.student-schedule .events-5 {
+  background-color: #ffffffd1 !important;
+  height: 648px !important;
+  left: 0 !important;
+  position: absolute !important;
+  top: 9px !important;
+}
+
+.student-schedule .line-48 {
+  height: 3px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 191px;
+  width: 977px;
+}
+
+.student-schedule .line-49 {
+  height: 3px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 99px;
+  width: 977px;
+}
+
+.student-schedule .line-50 {
+  height: 648px;
+  left: 840px;
+  object-fit: cover;
+  position: absolute;
+  top: 9px;
+  width: 1px;
+}
+
+.student-schedule .line-51 {
+  height: 648px;
+  left: 700px;
+  object-fit: cover;
+  position: absolute;
+  top: 9px;
+  width: 1px;
+}
+
+.student-schedule .line-52 {
+  height: 648px;
+  left: 559px;
+  object-fit: cover;
+  position: absolute;
+  top: 9px;
+  width: 1px;
+}
+
+.student-schedule .line-53 {
+  height: 648px;
+  left: 418px;
+  object-fit: cover;
+  position: absolute;
+  top: 9px;
+  width: 1px;
+}
+
+.student-schedule .line-54 {
+  height: 648px;
+  left: 278px;
+  object-fit: cover;
+  position: absolute;
+  top: 9px;
+  width: 1px;
+}
+
+.student-schedule .day-num-32 {
+  left: 831px !important;
+  position: absolute !important;
+  top: 0 !important;
+}
+
+.student-schedule .day-num-33 {
+  left: 693px !important;
+  position: absolute !important;
+  top: 0 !important;
+}
+
+.student-schedule .day-num-34 {
+  left: 555px !important;
+  position: absolute !important;
+  top: 0 !important;
+}
+
+.student-schedule .day-num-35 {
+  left: 409px !important;
+  position: absolute !important;
+  top: 0 !important;
+}
+
+.student-schedule .day-num-36 {
+  left: 278px !important;
+  position: absolute !important;
+  top: 1px !important;
+}
+
+.student-schedule .event-94 {
+  background-color: #cbffd6 !important;
+  height: 89px !important;
+  left: 559px !important;
+  position: absolute !important;
+  top: 568px !important;
+}
+
+.student-schedule .event-95 {
+  height: 90px !important;
+}
+
+.student-schedule .event-96 {
+  background-color: #03991a !important;
+  height: 89px !important;
+}
+
+.student-schedule .event-97 {
+  color: #015e10 !important;
+}
+
+.student-schedule .event-98 {
+  color: #015e10 !important;
+  top: 21px !important;
+}
+
+.student-schedule .event-99 {
+  background-color: #bfdafe !important;
+  left: 137px !important;
+  position: absolute !important;
+  top: 286px !important;
+}
+
+.student-schedule .event-100 {
+  background-color: #3b9bef !important;
+}
+
+.student-schedule .event-101 {
+  color: #1038bc !important;
+}
+
+.student-schedule .event-102 {
+  color: #1139bd !important;
+}
+
+.student-schedule .event-103 {
+  background-color: #bfdafe !important;
+  left: 418px !important;
+  position: absolute !important;
+  top: 286px !important;
+}
+
+.student-schedule .event-104 {
+  left: 137px !important;
+  position: absolute !important;
+  top: 474px !important;
+}
+
+.student-schedule .event-105 {
+  background-color: #f0deff !important;
+  left: 559px !important;
+  position: absolute !important;
+  top: 193px !important;
+}
+
+.student-schedule .event-106 {
+  background-color: #8a54ff !important;
+}
+
+.student-schedule .event-107 {
+  color: #410b89 !important;
+}
+
+.student-schedule .day-num-37 {
+  left: 129px !important;
+  position: absolute !important;
+  top: 0 !important;
+}
+
+.student-schedule .line-55 {
+  height: 648px;
+  left: 137px;
+  object-fit: cover;
+  position: absolute;
+  top: 9px;
+  width: 1px;
+}
+
+.student-schedule .line-56 {
+  height: 3px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 283px;
+  width: 977px;
+}
+
+.student-schedule .line-57 {
+  height: 3px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 378px;
+  width: 977px;
+}
+
+.student-schedule .line-58 {
+  height: 3px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 471px;
+  width: 977px;
+}
+
+.student-schedule .line-59 {
+  height: 3px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 565px;
+  width: 977px;
+}
+
+.student-schedule .text-wrapper-154 {
+  color: #1d1d1d;
+  font-family: "Alumni Sans", Helvetica;
+  font-size: 40px;
+  font-style: italic;
+  font-weight: 600;
+  left: 20px;
+  letter-spacing: 0;
+  line-height: 60px;
+  position: absolute;
+  text-align: center;
+  top: 538px;
+  white-space: nowrap;
+  width: 90px;
+}
+
+.student-schedule .text-wrapper-155 {
+  color: #1d1d1d;
+  font-family: "Alumni Sans", Helvetica;
+  font-size: 40px;
+  font-style: italic;
+  font-weight: 600;
+  left: 20px;
+  letter-spacing: 0;
+  line-height: 60px;
+  position: absolute;
+  text-align: center;
+  top: 444px;
+  white-space: nowrap;
+  width: 90px;
+}
+
+.student-schedule .text-wrapper-156 {
+  color: #1d1d1d;
+  font-family: "Alumni Sans", Helvetica;
+  font-size: 40px;
+  font-style: italic;
+  font-weight: 600;
+  left: 20px;
+  letter-spacing: 0;
+  line-height: 60px;
+  position: absolute;
+  text-align: center;
+  top: 350px;
+  white-space: nowrap;
+  width: 90px;
+}
+
+.student-schedule .text-wrapper-157 {
+  color: #1d1d1d;
+  font-family: "Alumni Sans", Helvetica;
+  font-size: 40px;
+  font-style: italic;
+  font-weight: 600;
+  left: 37px;
+  letter-spacing: 0;
+  line-height: 60px;
+  position: absolute;
+  text-align: center;
+  top: 257px;
+  white-space: nowrap;
+  width: 66px;
+}
+
+.student-schedule .text-wrapper-158 {
+  color: #1d1d1d;
+  font-family: "Alumni Sans", Helvetica;
+  font-size: 40px;
+  font-style: italic;
+  font-weight: 600;
+  left: 37px;
+  letter-spacing: 0;
+  line-height: 60px;
+  position: absolute;
+  text-align: center;
+  top: 73px;
+  white-space: nowrap;
+  width: 66px;
+}
+
+.student-schedule .text-wrapper-159 {
+  color: #1d1d1d;
+  font-family: "Alumni Sans", Helvetica;
+  font-size: 40px;
+  font-style: italic;
+  font-weight: 600;
+  left: 34px;
+  letter-spacing: 0;
+  line-height: 60px;
+  position: absolute;
+  text-align: center;
+  top: 162px;
+  white-space: nowrap;
+  width: 66px;
+}
+
+.student-schedule .event-108 {
+  left: 1271px !important;
+  position: absolute !important;
+  top: 839px !important;
+}
+
+.student-schedule .rectangle-57 {
+  background-color: #59595980;
+  height: 1080px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 1923px;
+}
+
+.student-schedule .rectangle-58 {
+  height: 440px;
+  left: 477px;
+  position: absolute;
+  top: 315px;
+  width: 972px;
+}
+
+.student-schedule .rectangle-59 {
+  background-color: #ffffff;
+  border: 1px solid;
+  border-color: #000000;
+  border-radius: 10px;
+  height: 48px;
+  left: 781px;
+  position: absolute;
+  top: 484px;
+  width: 181px;
+}
+
+.student-schedule .text-wrapper-160 {
+  color: #000000;
+  font-family: "Alumni Sans", Helvetica;
+  font-size: 25px;
+  font-style: italic;
+  font-weight: 600;
+  left: 769px;
+  letter-spacing: 0;
+  line-height: 37.5px;
+  position: absolute;
+  text-align: center;
+  top: 486px;
+  white-space: nowrap;
+  width: 205px;
+}
+
+.student-schedule .text-wrapper-161 {
+  color: #000000;
+  font-family: "Alumni Sans", Helvetica;
+  font-size: 25px;
+  font-style: italic;
+  font-weight: 600;
+  left: 934px;
+  letter-spacing: 0;
+  line-height: 37.5px;
+  position: absolute;
+  text-align: center;
+  top: 486px;
+  white-space: nowrap;
+  width: 205px;
+}
+
+.student-schedule .rectangle-60 {
+  background-color: #ff8c2e;
+  border: 1px solid;
+  border-color: #000000;
+  border-radius: 10px;
+  height: 69px;
+  left: 852px;
+  position: absolute;
+  top: 594px;
+  width: 257px;
+}
+
+.student-schedule .text-wrapper-162 {
+  color: #ffffff;
+  font-family: "Alumni Sans", Helvetica;
+  font-size: 30px;
+  font-style: italic;
+  font-weight: 600;
+  left: 891px;
+  letter-spacing: 0;
+  line-height: 45px;
+  position: absolute;
+  text-align: center;
+  top: 608px;
+  white-space: nowrap;
+  width: 205px;
+}
+
+.student-schedule .upload {
+  height: 40px !important;
+  left: 877px !important;
+  position: absolute !important;
+  top: 609px !important;
+  width: 40px !important;
+}
+
+.student-schedule .size-48-6 {
+  height: 48px !important;
+  left: 1388px !important;
+  position: absolute !important;
+  top: 321px !important;
+  width: 48px !important;
+}

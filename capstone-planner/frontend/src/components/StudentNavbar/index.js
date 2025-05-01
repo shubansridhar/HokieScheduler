@@ -1,0 +1,1 @@
+export { StudentNavbar } from "./StudentNavbar";

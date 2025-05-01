@@ -1,0 +1,7 @@
+.student-info {
+  background-color: #ff7921;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
